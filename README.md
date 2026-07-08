@@ -172,13 +172,18 @@ Antes de começar, certifique-se de ter instalado:
 ```bash
 git clone https://github.com/seu-usuario/naruto-api-explorer.git
 cd naruto-api-explorer
-2. Instale as dependências
-bash
+```
+
+### 2. Instale as dependências
+
+```bash
 npm install
-3. Configure as variáveis de ambiente
+```
+
+1. Configure as variáveis de ambiente
 Crie um arquivo .env na pasta backend/:
 
-bash
+```bash
 cd backend
 cp .env.example .env
 # Ou crie manualmente:
@@ -188,36 +193,39 @@ DATTEBAYO_API_URL=https://dattebayo-api.onrender.com
 NARUTO_API_URL=https://naruto-api-rsl3.onrender.com/api/v1
 CORS_ORIGIN=*
 CACHE_TTL=300000" > .env
-4. Execute o servidor
-bash
+```
+
+1. Execute o servidor
+
+```bash
 # Modo desenvolvimento (com nodemon)
 npm run dev
+```
 
-# Modo produção
+## Modo produção
+
 npm start
 5. Acesse a aplicação
-Local: http://localhost:3000
+Local: <http://localhost:3000>
 
 Celular (mesma rede Wi-Fi): http://[SEU_IP]:3000
 
-6. Execute os testes
-bash
+1. Execute os testes
+
+```bash
 npm test
+```
+
 🎮 Como Usar
 Interface Principal
 Buscar personagem: Digite o nome e clique em "Buscar"
-
 Personagem aleatório: Clique no botão 🎲
-
 Top Jutsus: Veja os personagens com mais técnicas
-
 Lista de personagens: Clique em qualquer card para ver detalhes
 
 Recursos PWA
 Instalar no celular: Adicione à tela inicial
-
 Offline: Funciona sem internet (com cache)
-
 App nativo: Abre em janela própria sem barra de endereço
 
 ## 📡 API Endpoints
@@ -232,7 +240,7 @@ App nativo: Abre em janela própria sem barra de endereço
 | GET | /api/characters/status | Status do sistema (fallback) |
 | GET | /health | Health check |
 
-Exemplos de Uso
+## Exemplos de Uso
 
 ```bash
 # Listar todos os personagens
@@ -251,10 +259,9 @@ curl http://localhost:3000/api/characters/top-jutsu
 curl http://localhost:3000/api/characters/status
 ```
 
-📸 Screenshots
-Desktop
+## 📸 Screenshots
 
-```text
+```Desktop
 ┌─────────────────────────────────────────────────────┐
 │  🍥 Naruto API Explorer                             │
 │  Explore o universo Naruto com dados da API pública │
@@ -269,9 +276,7 @@ Desktop
 └─────────────────────────────────────────────────────┘
 ```
 
-Mobile
-
-```text
+```Mobile
 ┌──────────────────┐
 │ 🍥 Naruto API    │
 │ ──────────────── │
@@ -293,16 +298,17 @@ Mobile
 
 ## 🗺️ Roadmap
 
-🚀 Futuras Melhorias
-Sistema de Favoritos (localStorage)
-Modo Escuro/Claro
-Comparar Personagens lado a lado
-Galeria de Imagens dos personagens
-Páginação na lista de personagens
-Exportar Dados (JSON/CSV)
-Deploy no Render/Vercel
-Tradução para inglês
-Compartilhar personagem nas redes sociais
+### 🚀 Futuras Melhorias
+
+- Sistema de Favoritos (localStorage)
+- Modo Escuro/Claro
+- Comparar Personagens lado a lado
+- Galeria de Imagens dos personagens
+- Páginação na lista de personagens
+- Exportar Dados (JSON/CSV)
+- Deploy no Render/Vercel
+- Tradução para inglês
+- Compartilhar personagem nas redes sociais
 
 🤝 Contribuição
 Contribuições são bem-vindas! Siga os passos:
