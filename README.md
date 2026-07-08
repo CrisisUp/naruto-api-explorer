@@ -105,6 +105,7 @@
 
 ## 📁 Estrutura do Projeto
 
+```text
 naruto-api-explorer/
 ├── backend/
 │ ├── src/
@@ -150,8 +151,7 @@ naruto-api-explorer/
 │ └── jiraiya.png # Imagem pública
 ├── package.json
 └── README.md
-
-text
+```
 
 ---
 
@@ -259,10 +259,10 @@ Desktop
 │  🍥 Naruto API Explorer                             │
 │  Explore o universo Naruto com dados da API pública │
 │                                                     │
-│  [🔍 Buscar personagem...] [Buscar] [🏆] [🎲]        │
+│  [🔍 Buscar personagem...] [Buscar] [🏆] [🎲]       │
 │                                                     │
 │  ┌─────────────-┐  ┌─────────────┐  ┌─────────────┐ │
-│  │  🖼️ Naruto   │  │  🖼️ Sasuke   │  │  🖼️ Kakashi │ │
+│  │  🖼️ Naruto   │  │  🖼️ Sasuke  │  │  🖼️ Kakashi │ │
 │  │  Uzumaki     │  │  Uchiha     │  │  Hatake     │ │
 │  │  Clã Uzumaki │  │  Clã Uchiha │  │  Clã Hatake │ │
 │  └─────────────-┘  └─────────────┘  └─────────────┘ │
