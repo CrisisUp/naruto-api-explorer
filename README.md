@@ -310,46 +310,48 @@ curl http://localhost:3000/api/characters/status
 - Tradução para inglês
 - Compartilhar personagem nas redes sociais
 
-🤝 Contribuição
+## 🤝 Contribuição
+
 Contribuições são bem-vindas! Siga os passos:
 
-Fork o projeto
-
-Crie uma branch para sua feature:
+- Fork o projeto
+- Crie uma branch para sua feature:
 
 ```bash
 git checkout -b feature/nova-funcionalidade
 ```
 
-Commit suas mudanças:
+- Commit suas mudanças:
 
 ```bash
 git commit -m "✨ Adiciona nova funcionalidade"
 ```
 
-Push para a branch:
+- Push para a branch:
 
 ```bash
 git push origin feature/nova-funcionalidade
 ```
 
-Abra um Pull Request
+- Abra um Pull Request
 
-📄 Licença
+## 📄 Licença
+
 Distribuído sob a licença MIT. Veja LICENSE para mais informações.
 
-📧 Contato
-Cristiano - @seu-usuario
+## 📧 Contato
 
-Link do Projeto: <https://github.com/seu-usuario/naruto-api-explorer>
+Link do Projeto: <https://github.com/CrisisUp/naruto-api-explorer>
 
-🙏 Agradecimentos
-Dattebayo API - API primária
-Naruto API - API fallback
-Projeto Gutenberg - Livros públicos (usados nos testes)
-Naruto Wiki - Dados dos personagens
+## 🙏 Agradecimentos
 
-⭐ Mostre seu apoio
+- Dattebayo API - API primária
+- Naruto API - API fallback
+- Projeto Gutenberg - Livros públicos (usados nos testes)
+- Naruto Wiki - Dados dos personagens
+
+## ⭐ Mostre seu apoio
+
 Se este projeto te ajudou, dê uma ⭐ no GitHub!
 Feito com ❤️ e 🍥 por Cristiano
 
