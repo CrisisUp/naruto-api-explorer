@@ -330,3 +330,18 @@ class NarutoApp {
 document.addEventListener("DOMContentLoaded", () => {
   new NarutoApp();
 });
+
+/// Registrar Service Worker (PWA)
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker
+      .register("/sw.js", { scope: "/" })
+      .then((registration) => {
+        console.log("✅ Service Worker registrado com sucesso!");
+        console.log("📱 Scope:", registration.scope);
+      })
+      .catch((error) => {
+        console.error("❌ Erro ao registrar Service Worker:", error);
+      });
+  });
+}

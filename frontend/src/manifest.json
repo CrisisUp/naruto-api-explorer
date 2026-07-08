@@ -1,0 +1,18 @@
+{
+  "name": "🍥 Naruto API Explorer",
+  "short_name": "Naruto API",
+  "description": "Explore o universo Naruto com dados da API pública",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a2e",
+  "theme_color": "#ff6b35",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/images/jiraiya.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
